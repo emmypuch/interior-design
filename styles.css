@@ -143,6 +143,7 @@ div.interior-heading p {
 }
 
 div.interior-image {
+  position: relative;
   margin-bottom: 10px;
 }
 
@@ -183,18 +184,7 @@ div.interior-link a:hover {
   div.interior-image {
     margin-top: 4em;
   }
-
-  /* div.flex-end {
-    position: relative;
-    right: -40px;
-    top: 10px;
-  } */
 }
-
-/* section.interior-box {
-  padding-left: 60px;
-  padding-right: 60px;
-} */
 
 div.flex-end {
   display: block;
@@ -204,7 +194,49 @@ div.flex-end {
   height: 200px;
   position: absolute;
   right: 80px;
-  bottom: -55px;
+  bottom: -100px;
+}
+
+@media (max-width: 700px) {
+  div.flex-end {
+    padding: 10px 40px;
+    width: 220px;
+    height: 200px;
+    position: absolute;
+    right: 80px;
+    top: 180px;
+  }
+
+  div.box-image img {
+    border-radius: 50px;
+    width: 50px;
+    height: 50px;
+  }
+
+  div.box-heading h3 {
+    font-size: 1rem;
+  }
+
+  div.box-heading p {
+    font-size: 0.7rem;
+  }
+}
+
+@media (max-width: 400px) {
+  div.flex-end {
+    right: 30px;
+  }
+
+  footer {
+    padding-left: 20px;
+  }
+}
+
+@media (max-width: 320px) {
+  div.flex-end {
+    right: -20px;
+    padding-left: 20px;
+  }
 }
 
 div.box-content {
@@ -252,7 +284,7 @@ footer {
   color: #7e7e7e;
   font-size: 1rem;
   letter-spacing: 2px;
-  margin-top: 7em;
+  margin-top: 9em;
   padding-bottom: 20px;
 }
 

@@ -111,11 +111,9 @@ div.logo h1 {
   div.logo h1 {
     font-size: 1.2rem;
   }
-
-  div.interior-heading p {
-    font-size: 1.4rem;
-  }
 }
+
+/* Section Interior Area */
 
 section.interior-info {
   display: flex;
@@ -167,13 +165,21 @@ div.interior-link a:hover {
   color: #eee;
 }
 
-@media (max-width: 600px) {
+@media (max-width: 700px) {
   section.interior-info {
     display: flex;
     flex-direction: column;
     margin-top: 2em;
     padding-left: 20px;
     padding-right: 20px;
+  }
+
+  div.interior-heading p {
+    font-size: 1.3rem;
+  }
+
+  div.interior-heading h2 {
+    font-size: 2rem;
   }
 
   div.interior-image img {
@@ -276,6 +282,8 @@ div.par h4 {
   letter-spacing: 2px;
   color: #eee;
 }
+
+/* footer Area */
 
 footer {
   display: flex;

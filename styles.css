@@ -156,13 +156,17 @@ div.interior-link {
 
 div.interior-link a {
   text-decoration: none;
-  color: #f6b428;
+  color: #eee;
+  background-color: #f6b428;
   font-size: 1.1rem;
+  padding: 10px 30px;
+  border-radius: 5px;
 }
 
 div.interior-link a:hover {
-  text-decoration: underline;
-  color: #eee;
+  border: 2px solid #f6b428;
+  color: #f6b428;
+  background: transparent;
 }
 
 @media (max-width: 700px) {

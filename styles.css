@@ -41,7 +41,7 @@ div.logo h1 {
   color: #7e7e7e;
   display: block;
   padding: 1em;
-  font-size: 1.2rem;
+  font-size: 1.3rem;
 }
 
 .nav-links li a:hover {
@@ -136,7 +136,7 @@ div.interior-heading h2 {
 div.interior-heading p {
   color: #7e7e7e;
   padding-top: 20px;
-  font-size: 1.7rem;
+  font-size: 1.5rem;
   letter-spacing: 2px;
 }
 
@@ -158,8 +158,8 @@ div.interior-link a {
   text-decoration: none;
   color: #eee;
   background-color: #f6b428;
-  font-size: 1.1rem;
-  padding: 10px 30px;
+  font-size: 1.3rem;
+  padding: 15px 30px;
   border-radius: 5px;
 }
 
